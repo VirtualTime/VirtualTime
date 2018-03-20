@@ -42,7 +42,6 @@
   <ItemGroup>
     <Compile Include="ITime.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RealTime.cs" />
     <Compile Include="TimeFactory.cs" />
     <Compile Include="VirtualTime.cs" />
   </ItemGroup>

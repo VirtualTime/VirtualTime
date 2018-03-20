@@ -4,9 +4,9 @@
 
     public class TestHelper
     {
-        public  static string[] CreateReport(double expectedElapsedVirtualTime, DateTime whenTimeStarts, int timeToPassMs, DateTime expectedTime, DateTime virtualTime, double marginOfErrorMs)
+        public static string[] CreateReport(double expectedElapsedVirtualTime, DateTime whenTimeStarts, int timeToPassMs, DateTime expectedTime, DateTime virtualTime, double marginOfErrorMs)
         {
-            var messages = new string[]
+            var messages = new[]
             {
                 $"expectedElapsedVirtualTime : {expectedElapsedVirtualTime}",
                 $"whenTimeStarts : {whenTimeStarts}",
